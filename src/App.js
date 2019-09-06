@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 import HomePage from './pages/homepage/homepage.component';
 
 import './App.css';
