@@ -1,6 +1,6 @@
 import React from 'react';
 import CollectionItem from '../../components/collection-item/collection-item.component';
-import './category.styles.scss';
+import './collection.styles.scss';
 
 const CollectionPage = ({ match }) => (
   <div className='collection-page'>
