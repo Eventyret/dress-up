@@ -21,5 +21,5 @@ const mapStateToProps = ({ cart: { cartItems } }) => ({
 
 export default connect(
   mapStateToProps,
-  mapDispatchToPros
+  mapDispatchToPros 
 )(CartIcon);
