@@ -15,5 +15,10 @@ This is a react e-commerce website with firestore as a backend.
 - Yarn
 - VScode
 
+### Third-Party packages
+- Reselect
+- Redux Persist
+- Redux Logger
+- React Router
 
 I will continue to update this as the project grows!
