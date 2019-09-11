@@ -23,8 +23,7 @@ export const OptionsContainer = styled.div`
   justify-content: flex-end;
 `;
 
-export const OptionsLink = styled(Link)`
+export const OptionLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
-  text-transform: uppercase;
 `;
