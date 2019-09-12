@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Route } from 'react-router-dom';
 import { createStructuredSelector } from 'reselect';
-import CollectionsOverview from '../../components/collections-overview/collections-overview.components';
+import CollectionsOverview from '../../components/collections-overview/collections-overview.component';
 import WithSpinner from '../../components/with-spinner/with-spinner.component';
 import { fetchCollectionsStartAsync } from '../../redux/shop/shop.actions';
 import { selectIsCollectionFetching, selectIsCollectionsLoaded } from '../../redux/shop/shop.selectors';
