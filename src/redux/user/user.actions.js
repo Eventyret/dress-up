@@ -12,22 +12,22 @@ export const googleSignInStart = () => ({
 export const googleSignInSuccess = user => ({
   type: UserActionTypes.GOOGLE_SIGN_IN_SUCCESS,
   payload: user
-})
+});
 
 export const googlesignInFailure = error => ({
   type: UserActionTypes.GOOGLE_SIGN_IN_FAILURE,
   payload: error
-})
+});
 export const emailSignInStart = () => ({
   type: UserActionTypes.EMAIL_SIGN_IN_START
 });
 
-export const emailSignInSuccess = user => ({
+export const emailSignInSuccess = emailAndPassword => ({
   type: UserActionTypes.EMAILIGN_IN_SUCCESS,
-  payload: user
-})
+  payload: emailAndPassword
+});
 
 export const emailsignInFailure = error => ({
   type: UserActionTypes.EMAILIGN_IN_FAILURE,
   payload: error
-})
+});
