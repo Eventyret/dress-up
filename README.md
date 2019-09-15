@@ -9,7 +9,7 @@ This is a react e-commerce website with firestore as a backend.
 	- Google Sign in
 	- Email Password Sign in
 	- Firestore
-
+	
 ### Tools used
 - Git
 - Yarn
@@ -20,5 +20,6 @@ This is a react e-commerce website with firestore as a backend.
 - Redux Persist
 - Redux Logger
 - React Router
+- Redux Saga
 
 I will continue to update this as the project grows!
