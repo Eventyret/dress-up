@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
-  const publishableKey = 'pk_test_zuIZjWs0ok1X59mto8rNksGn00uzmbjP89';
+  const publishableKey = 'pk_test_LFQyt4akPoOfnfC7seScRYMC';
 
   const onToken = token => {
     axios({
@@ -27,10 +27,10 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label='Pay Now'
-      name='CRWN Clothing Ltd.'
+      name='Dress to Impress Ltd.'
       billingAddress
       shippingAddress
-      image='https://svgshare.com/i/CUz.svg'
+      image='https://i.imgur.com/POlXHLS.png'
       description={`Your total is £ ${price}`}
       amount={priceForStripe}
       panelLabel='Pay Now'
