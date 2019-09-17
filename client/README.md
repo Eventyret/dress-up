@@ -9,6 +9,8 @@ This is a react e-commerce website with firestore as a backend.
 	- Google Sign in
 	- Email Password Sign in
 	- Firestore
+- Stripe
+- NodeJS
 	
 ### Tools used
 - Git
