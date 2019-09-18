@@ -2,7 +2,7 @@
   "name": "dress-up-shop-server",
   "version": "1.0.0",
   "engines": {
-    "node": "10.16.3",
+    "node": "^8 || ^10",
     "npm": "6.11.3"
   },
   "scripts": {
