@@ -3,6 +3,8 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const path = require('path');
 const compression = require('compression');
+const enforce = require('express-sslify');
+
 if (process.env.NODE_ENV !== 'production') require('dotenv').config();
 
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
@@ -30,6 +32,9 @@ app.listen(port, error => {
   console.log('Server running on port ' + port);
 });
 
+app.get('/serviceWorker.js', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '..', 'build', 'serviceWorker.js'));
+});
 app.post('/payment', (req, res) => {
   const body = {
     source: req.body.token.id,
